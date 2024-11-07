@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroLesson", "ZeroLesson\ZeroLesson.csproj", "{079A95EF-5779-4D84-9AEC-D1079D3D9D62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZeroLesson", "ZeroLesson\ZeroLesson.csproj", "{079A95EF-5779-4D84-9AEC-D1079D3D9D62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{74291F78-E659-451E-95C4-BA9276032385}"
+	ProjectSection(SolutionItems) = preProject
+		data\JSON_sample_1.json = data\JSON_sample_1.json
+		data\ms-sql.sql = data\ms-sql.sql
+		data\postgres.sql = data\postgres.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{DA4F56D3-233E-4361-9E84-3B099C16F8C7}"
+	ProjectSection(SolutionItems) = preProject
+		img\add-API-controller.png = img\add-API-controller.png
+		img\bender.png = img\bender.png
+		img\iis.png = img\iis.png
+		img\linked-list.png = img\linked-list.png
+		img\ocelot.jpg = img\ocelot.jpg
+		img\SQL-profiler-filter.png = img\SQL-profiler-filter.png
+		img\xUnit.png = img\xUnit.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
